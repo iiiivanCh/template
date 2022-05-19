@@ -7,7 +7,6 @@
 }
 
 .header__background {
-  min-height: 732px;
   background-image:
     linear-gradient(to top, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
     url(../img/s1-stag-office-mockup.jpg);
@@ -39,6 +38,11 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.header__tel-img {
+  display: none;
+
+}
+
 .header__text {
   margin: 0 auto;
   max-width: 970px;
@@ -64,9 +68,13 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
+.header__p-320 {
+  display: none;
+}
+
 .header__link {
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   padding: 12px 48px;
   font-weight: 500;
   font-size: 20px;
@@ -74,4 +82,121 @@
   border-radius: 50px;
   color: var(--color-text-0);
   background-color: var(--color-background-2);
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+}
+
+@media (max-width: 1199px) {
+
+  .header__container {
+    padding-top: 25px;
+  }
+
+  .header__wrap {
+    margin-bottom: 70px;
+  }
+
+  .header__logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .header__tel-number {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .header__tel-text {
+    width: 128px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header__text {
+    max-width: 754px;
+  }
+
+  .header__title {
+    margin-bottom: 27px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .header__p {
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .header__link {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-bottom: 20px;
+  }
+
+  .header__container {
+    padding-top: 15px;
+  }
+
+  .header__wrap {
+    margin-bottom: 65px;
+  }
+
+  .header__logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__tel {
+    display: none;
+  }
+
+  .header__tel-img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../img/Phone.svg);
+    background-repeat: no-repeat;
+  }
+
+  .header__text {
+    max-width: 100%;
+
+  }
+
+  .header__title {
+    margin-bottom: 28px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .header__p {
+    display: none;
+  }
+
+
+  .header__p-320 {
+    margin-bottom: 51px;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .header__link {
+    display: inline-block;
+    margin: 0 auto 65px;
+    padding: 9px 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 50px;
+  }
 }

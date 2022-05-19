@@ -98,3 +98,136 @@
   text-align: center;
   color: var(--color-text-2);
 }
+
+
+@media (max-width: 1199px) {
+  /* .firm {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  } */
+
+  .firm__wrapper {
+    margin-bottom: 59px;
+  }
+
+  .firm__title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .firm__hi {
+    margin-bottom: 31px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .firm__hi:before {
+    top: 10px;
+    left: -62px;
+    width: 40px;
+  }
+
+  .firm__hi:after {
+    top: 10px;
+    right: -59px;
+    width: 40px;
+  }
+
+  .firm__text {
+    max-width: 667px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .swiper-wrapper {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .swiper-slide {
+    width: 180px;
+  }
+
+  .firm__img {
+    margin-bottom: 24px;
+    padding-top: 0;
+    width: 104px;
+    height: 104px;
+    font-size: 52px;
+    line-height: 73px;
+  }
+
+  .firm__about {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .firm {
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+
+  .firm__wrapper {
+    margin-bottom: 40px;
+  }
+
+  .firm__title {
+    margin-bottom: 17px;
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--color-text-2);
+  }
+
+  .firm__hi {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .firm__hi:before {
+    top: 11px;
+    left: -46px;
+    width: 20px;
+    border: none;
+    border-top: 1px solid var(--color-text-2);
+  }
+
+  .firm__hi:after {
+    top: 11px;
+    right: -46px;
+    width: 20px;
+    border: none;
+    border-top: 1px solid var(--color-text-2);
+  }
+
+  .firm__text {
+    max-width: 724px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .swiper-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 43px;
+  }
+
+  .swiper-slide {
+    width: 196px;
+  }
+
+  .firm__img {
+    margin-bottom: 25px;
+    font-size: 52px;
+    line-height: 73px;
+  }
+
+  .firm__about {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

@@ -92,3 +92,23 @@ iframe {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 970px;
+    padding: 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 90%;
+    padding: 0 0;
+  }
+}
