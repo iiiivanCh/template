@@ -50,7 +50,7 @@
           более менее осмысленного
           текста рыбы на русском языке, а начинающему оратору отточить.</p>
       </div>
-      <div class="swiper">
+      <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="firm__wrap">
@@ -77,8 +77,9 @@
             </div>
           </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <button class="swiper-button swiper-button-left 
+        "></button>
+        <button class="swiper-button swiper-button-right"></button>
       </div>
     </div>
   </section>
@@ -123,6 +124,23 @@
     </div>
     <div class="footer__end">Сделано Ивановым Иваном</div>
   </footer>
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      enabled: true,
+      navigation: {
+        nextEl: ".swiper-button-left",
+        prevEl: ".swiper-button-right",
+      },
+      breakpoints: {
+        767: {
+          enabled: false,
+          slidesPerView: 4,
+        },
+      },
+    });
+  </script>
 </body>
 
 </html>
