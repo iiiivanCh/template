@@ -21,14 +21,14 @@
   align-items: center;
 }
 
-.header__tel-number {
+.block-3__tel-number {
   font-weight: 400;
   font-size: 23.85px;
   line-height: 28px;
   text-align: center;
 }
 
-.header__tel-text {
+.block-3__tel-text {
   width: 132px;
   margin: 0 auto;
   font-weight: 400;
@@ -38,7 +38,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.header__tel-img {
+.block-3__tel-img {
   display: none;
 
 }
@@ -95,17 +95,17 @@
     margin-bottom: 70px;
   }
 
-  .header__logo {
+  .logo {
     width: 60px;
     height: 60px;
   }
 
-  .header__tel-number {
+  .block-3__tel-number {
     font-size: 21px;
     line-height: 25px;
   }
 
-  .header__tel-text {
+  .block-3__tel-text {
     width: 128px;
     font-weight: 400;
     font-size: 13px;
@@ -146,21 +146,20 @@
     margin-bottom: 65px;
   }
 
-  .header__logo {
+  .logo {
     width: 30px;
     height: 30px;
   }
 
-  .header__tel {
+  .block-3 {
     display: none;
   }
 
-  .header__tel-img {
+  .block-3__tel-img {
     display: block;
-    width: 24px;
+    width: 27px;
     height: 24px;
     border: none;
-    background-color: transparent;
     background-image: url(../img/Phone.svg);
     background-repeat: no-repeat;
   }
